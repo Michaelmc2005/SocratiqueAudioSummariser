@@ -76,8 +76,7 @@ pyasn1-modules==0.2.8
 PyAudio==0.2.13
 pydub==0.25.1
 pygame==2.3.0
-pyobjc==9.0.1
-pyobjc-core==9.0.1
+
 pyobjc-framework-Accessibility==9.0.1
 pyobjc-framework-Accounts==9.0.1
 pyobjc-framework-AddressBook==9.0.1
