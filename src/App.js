@@ -23,6 +23,7 @@ function App() {
     if (!file) return;
 
     setLoading(true);
+    console.log("Generating Summary");
     const formData = new FormData();
     formData.append('audio', file);
 
