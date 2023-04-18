@@ -1,0 +1,103 @@
+body{
+  background-color: #1f1f1f;
+}
+.app {
+  background-color: #1f1f1f;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #c39f9f;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px #333;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 5px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #333;
+  border-radius: 5px;
+}
+
+main {
+  max-width: 800px;
+  margin: 100px auto 0;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.form-container {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-bottom: 60px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.button-greenish {
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button-greenish:hover {
+  background-color: #2ecc71;
+}
+
+.summary {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
