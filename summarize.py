@@ -4,13 +4,17 @@ import openai
 import json
 import whisper
 
+
 from pydub import AudioSegment
 from flask import Flask, request, jsonify
+from dotenv import load_dotenv
+
+load_dotenv()
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
 def summarize_text(text):
-    openai.api_key = "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"
+    openai.api_key = os.environ.get("OPENAI_API_KEY")
     completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
